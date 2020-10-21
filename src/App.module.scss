@@ -1,0 +1,21 @@
+.page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  .body{
+    width: 100%;
+  }
+
+  .empty{
+    height: 0;
+  }
+
+  .grid{
+    width: 100%;
+  }
+
+  .content{
+    padding: 20px 30px;
+  }
+}

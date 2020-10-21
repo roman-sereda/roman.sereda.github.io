@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Механики игры",
+    "links": [
+      {
+        "path": "/energy",
+        "title": "Энергия",
+        "doc": "energy.md"
+      },
+      {
+        "path": "/shields",
+        "title": "Щиты",
+        "doc": "doc.md"
+      }
+    ]
+  },
+  {
+    "title": "Игровые данные",
+    "links": [
+      {
+        "path": "/ass",
+        "title": "Артифакты",
+        "doc": "doc.md"
+      }
+    ]
+  }
+]
