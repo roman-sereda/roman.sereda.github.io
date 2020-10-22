@@ -16,7 +16,7 @@ import storybook from './docs/storybook.json';
 const App = () => {
 
   return(
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={styles.page}>
       <SideMenu />
 

@@ -4,11 +4,13 @@ import styles from './Test.module.scss';
 import doc from '../../docs/doc.md';
 import gfm from 'remark-gfm';
 
+const base = process.env.PUBLIC_URL === '/genshin_docs';
+
 const renderers = {
   image: (props: any) => {
     return(
       <div className={styles.imageWrapper}>
-        <img alt='Where is description?' src={props.src} />
+        <img alt='Where is description?' src={base ? '/genshin_docs' + props.src : props.src} />
         <div className={styles.imageDescription}>{ props.alt }</div>
       </div>
     );
